@@ -124,3 +124,11 @@ button svg {
     /* Otros estilos si los necesitas */
 
 }
+
+/* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .app {
+        max-width: 100%; /* Cambiado a 100% para adaptarse al ancho del dispositivo */
+        min-width: 300px; /* Modificado el mínimo para un tamaño mínimo más pequeño */
+    }
+}
